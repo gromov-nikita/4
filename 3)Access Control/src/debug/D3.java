@@ -1,16 +1,15 @@
 package debug;
-
 public class D3 {
-    private String str;
+    private static String str;
 
-    public String getStr() {
+    public static String getStr() {
         return str;
     }
 
-    public void setStr(String str) {
-        this.str = str;
+    public static void setStr(String a) {
+        str = a;
     }
-    public void debug(){
+    public static void debug(){
         System.out.println(str);
     }
 }

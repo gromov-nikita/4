@@ -1,17 +1,14 @@
 package debugoff;
 
 public class D3 {
-    private String str;
-
-    public String getStr() {
+    private static String str;
+    public static String getStr() {
         return str;
     }
-
-    public void setStr(String str) {
-        this.str = str;
+    public static void setStr(String a) {
+        str = a;
     }
-    public void debug(){
-
+    public static void debug() {
     }
 
 }
