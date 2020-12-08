@@ -1,4 +1,4 @@
-package src2;
+package OutPackage;
 
 public class Outside {
     private int n;
