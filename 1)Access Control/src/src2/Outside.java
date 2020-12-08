@@ -1,6 +1,6 @@
 package src2;
 
-public class D {
+public class Outside {
     private int n;
 
     public int getN() {
@@ -11,3 +11,4 @@ public class D {
         this.n = n;
     }
 }
+

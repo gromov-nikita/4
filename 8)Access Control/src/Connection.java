@@ -1,6 +1,6 @@
 public class Connection {
-    int n;
-    Connection(int num){
+    private int n;
+    public Connection(int num){
         n = num;
     }
 

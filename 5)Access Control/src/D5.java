@@ -11,11 +11,8 @@ public class D5 {
         //q.a1 = 4;
         //q.a2 = 3;
         //q.a3 = 2;
-        q.a4 = 1;
         //q.printA1();
         //q.printA2();
         //q.printA3();
-        q.printA4();
-
     }
 }
