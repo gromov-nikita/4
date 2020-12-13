@@ -4,7 +4,7 @@ Exercise 1: (1) Create a class in a package. Create an instance of your class ou
 package.
  */
 
-import OutPackage.Outside;
+import com.edu.gromov.Outside;
 public class Runner {
     public static void main(String[] args) {
         Outside q = new Outside();

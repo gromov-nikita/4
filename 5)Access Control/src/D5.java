@@ -8,11 +8,11 @@ import src2.D;
 public class D5 {
     public static void main(String[] args) {
         D q = new D();
-        //q.a1 = 4;
-        //q.a2 = 3;
-        //q.a3 = 2;
-        //q.printA1();
-        //q.printA2();
-        //q.printA3();
+        q.setA1(4);
+        q.setA2(3);
+        q.setA3(2);
+        q.printA1();
+        q.printA2();
+        q.printA3();
     }
 }

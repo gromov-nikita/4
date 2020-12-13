@@ -1,4 +1,4 @@
-package OutPackage;
+package com.edu.gromov;
 
 public class Outside {
     private int n;
