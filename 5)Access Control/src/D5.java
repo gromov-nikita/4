@@ -11,8 +11,9 @@ public class D5 {
         q.setA1(4);
         q.setA2(3);
         q.setA3(2);
-        q.printA1();
-        q.printA2();
-        q.printA3();
+        System.out.println(q.getA1());
+        System.out.println(q.getA2());
+        System.out.println(q.getA3());
+
     }
 }
