@@ -30,10 +30,10 @@ public class D {
 
     public static void main(String[] args) {
         D q = new D();
-        q.a1 = 4;
+        q.setA1(4);
         q.a2 = 3;
         q.a3 = 2;
-        System.out.println(q.a1);
+        System.out.println(q.getA1());
         System.out.println(q.a2);
         System.out.println(q.a3);
 

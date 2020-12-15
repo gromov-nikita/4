@@ -25,21 +25,16 @@ public class ConnectionManager {
         Connection obj4 = ConnectionManager.getRef();
         Connection obj5 = ConnectionManager.getRef();
         Connection obj6 = ConnectionManager.getRef();
-        try {
-            obj1.setN(1);
-            obj2.setN(2);
-            obj3.setN(3);
-            obj4.setN(4);
-            obj5.setN(5);
-            //obj6.setN(3);
-            System.out.println(obj1.getN());
-            System.out.println(obj2.getN());
-            System.out.println(obj3.getN());
-            System.out.println(obj4.getN());
-            System.out.println(obj5.getN());
-            //System.out.println(obj6.getN());
-        }catch (NullPointerException t){
-            System.out.println("Overflow");
-        }
+        obj1.setN(1);
+        obj2.setN(2);
+        obj3.setN(3);
+        obj4.setN(4);
+        obj5.setN(5);
+        System.out.println(obj1.getN());
+        System.out.println(obj2.getN());
+        System.out.println(obj3.getN());
+        System.out.println(obj4.getN());
+        System.out.println(obj5.getN());
+
     }
 }
