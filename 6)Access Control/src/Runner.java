@@ -3,7 +3,7 @@ Exercise 6: (1) Create a class with protected data. Create a second class in the
 with a method that manipulates the protected data in the first class.
  */
 
-public class D6 {
+public class Runner {
     protected int a;
 
     public int getA() {
@@ -20,7 +20,7 @@ public class D6 {
 }
 class D {
     public static void main(String[] args) {
-        D6 q = new D6();
+        Runner q = new Runner();
         System.out.println(q.getA());
         q.setA(1);
         q.printA();

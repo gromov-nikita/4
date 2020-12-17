@@ -4,10 +4,10 @@ fields and method members. Create an object of this class and see what kind of c
 messages you get when you try to access all the class members. Be aware that classes in the
 same directory are part of the “default” package.
  */
-import src2.D;
-public class D5 {
+import src2.Runner1;
+public class Runner2 {
     public static void main(String[] args) {
-        D q = new D();
+        Runner1 q = new Runner1();
         q.setA1(4);
         q.setA2(3);
         q.setA3(2);

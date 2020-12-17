@@ -1,5 +1,5 @@
 package src2;
-public class D {
+public class Runner1 {
     private int a1;
     protected int a2;
     int a3;
@@ -29,7 +29,7 @@ public class D {
     }
 
     public static void main(String[] args) {
-        D q = new D();
+        Runner1 q = new Runner1();
         q.setA1(4);
         q.a2 = 3;
         q.a3 = 2;
